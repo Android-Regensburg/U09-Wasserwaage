@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/spirit_level_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_spirit_level_background" />
+
+    <ImageView
+        android:id="@+id/spirit_level_tube"
+        app:layout_constraintTop_toTopOf="@+id/spirit_level_background"
+        app:layout_constraintBottom_toBottomOf="@+id/spirit_level_background"
+        app:layout_constraintLeft_toLeftOf="@+id/spirit_level_background"
+        app:layout_constraintRight_toRightOf="@+id/spirit_level_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_spirit_level_tube" />
+
+    <ImageView
+        android:id="@+id/spirit_level_bubble"
+        app:layout_constraintTop_toTopOf="@+id/spirit_level_tube"
+        app:layout_constraintBottom_toBottomOf="@+id/spirit_level_tube"
+        app:layout_constraintLeft_toLeftOf="@+id/spirit_level_tube"
+        app:layout_constraintRight_toRightOf="@+id/spirit_level_tube"
+        app:layout_constraintVertical_bias="0.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_spirit_level_bubble" />
+
+    <ImageView
+        android:id="@+id/spirit_level_marks"
+        app:layout_constraintTop_toTopOf="@+id/spirit_level_tube"
+        app:layout_constraintBottom_toBottomOf="@+id/spirit_level_tube"
+        app:layout_constraintLeft_toLeftOf="@+id/spirit_level_tube"
+        app:layout_constraintRight_toRightOf="@+id/spirit_level_tube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_spirit_level_tube_marks" />
+</merge>
