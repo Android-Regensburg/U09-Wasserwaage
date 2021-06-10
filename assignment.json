@@ -1,0 +1,9 @@
+{
+    "title": "Die Wasserwaage",
+    "abstract": "In dieser Aufgabe implementieren Sie eine einfache Wasserwaage, die die Beschleunigungssensoren des Android-Geräts nutzt, um dessen horizontale bzw. vertikale Lage zu prüfen.",
+    "hasStarterCode": true,
+    "hasSolutionCode": true,
+    "hasSimpleSolutionCode": false,
+    "hasAdvancedSolutionCode": false,
+    "solutionAvailableOn": "2021-06-17"
+}
