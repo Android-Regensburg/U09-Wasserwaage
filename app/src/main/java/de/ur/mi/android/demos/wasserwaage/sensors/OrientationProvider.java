@@ -5,8 +5,6 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 
-import java.text.DecimalFormat;
-
 public class OrientationProvider implements SensorEventListener {
 
     private final SensorManager sensorManager;
@@ -47,7 +45,6 @@ public class OrientationProvider implements SensorEventListener {
     }
 
     private float[] getNormalizedValues(float[] rawValues, int precisionBase) {
-        DecimalFormat decimalFormat = new DecimalFormat("#.##");
         float[] normalizedValues = new float[rawValues.length];
         System.arraycopy(rawValues, 0, normalizedValues, 0, normalizedValues.length);
         for (int i = 0; i < normalizedValues.length; i++) {
