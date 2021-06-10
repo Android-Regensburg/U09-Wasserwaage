@@ -6,6 +6,15 @@ In dieser Aufgabe implementieren Sie eine einfache Wasserwaage für Android-Smar
 
 **Hinweis**: Wenn Sie diese App auf einem emulierten Geräte (_Virtual Device_) testen, benötigen Sie die [erweiterten Kontrollmöglichkeiten](https://developer.android.com/studio/run/emulator#extended), um eine Bewegung des Geräts zu simulieren und damit eine Aktualisierung des Beschleunigungssensors auszulösen. Diese sind nur erreichbar, wenn der Emulator **nicht** als _Tool Window_ in _Android Studio_ eingebettet ist. Ändern Sie daher bitte, falls notwendig, die [entsprechende Einstellung](https://androidstudio.googleblog.com/2020/05/emulator-30011-canary.html) in _Android Studio_.
 
+### Demo
+
+Eine Demonstration der fertigen App sehen Sie in dem nachfolgenden Video, das Sie über [diesen Link](https://github.com/Android-Regensburg/U09-Wasserwaage/raw/master/docs/video-wasserwaage.webm) auch direkt herunterladen können.
+
+<video width="1280" height="720" controls loop autoplay>
+  <source src="https://github.com/Android-Regensburg/U09-Wasserwaage/raw/master/docs/video-wasserwaage.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video> 
+
 ### Vorgaben
 
 Für die Darstellung der Geräteausrichtung haben wir ein sogenanntes [Custom View](https://developer.android.com/training/custom-views/create-view) für Sie vorbereitet. Durch das Erben von `View`- bzw. `ViewGroup`-Klassen und die Verwendung eigene XML-Layouts können Sie in Android neue UI-Komponenten schaffen, die sich hinsichtlich der Konfigurierbarkeit und Integration identisch zu den bereits bekannten Elementen (z.B. dem `TextView`) verhalten. Unser View finden Sie in der Klasse `SpiritLevelView` und den zugehörigen XML-Dateien für das Layout (`res/layout/spirit_level_view.xml`) bzw. den zusätzlich unterstützten XML-Attributen (`res/values/attrs.xml`). Zwei dieser Views sind im Layout der vorgegebene Activity integriert und können für die Anzeige der horizontalen bzw. vertikalen Position verwendet werden. In der Activity können Sie die Views über den "normalen" Weg, d.h. die Verwendung der `findViewById`-Methode referenzieren. Die `SpiritLevelView`-Klasse bietet eine öffentliche Methode an, mit der Sie die Position der Luftblase innerhalb der Wasserwaage programmatisch anpassen können. Die genaue Verwendung ist im vorgegebenen Code in Form von Kommentaren erklärt.
