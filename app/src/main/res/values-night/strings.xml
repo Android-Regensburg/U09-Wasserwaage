@@ -1,5 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Wasserwaage</string>
-    <string name="app_description">Alles im Lot?</string>
     <string name="calibrate_values_fab_description">Action Button zum Kallibrieren der Wasserwage auf einer planen oberfläche</string>
 </resources>
