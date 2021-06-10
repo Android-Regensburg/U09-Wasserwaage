@@ -48,6 +48,6 @@ Die Rohwerte des Beschleunigungssensors reichen nicht aus, um eine zufriedenstel
 
 ## Screenshots der Anwendung
 
-![Screenshots der Wasserwage im Ruhezustand](./docs/screenshot-wasserwaage-01.png)
-![Screenshots der Wasserwage auf unebener Fläche](./docs/screenshot-wasserwaage-02.png)
-![Screenshots der Wasserwage auf unebener Fläche](./docs/screenshot-wasserwaage-03.png)
+|  Screenshots der Wasserwage im Ruhezustand   |   Screenshots der Wasserwage auf unebener Fläche    |
+|:------:|:-------:|
+| ![Screenshots der Wasserwage im Ruhezustand](./docs/screenshot-wasserwaage-01.png)  | ![Screenshots der Wasserwage im Ruhezustand](./docs/screenshot-wasserwaage-03.png)  |
